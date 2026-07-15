@@ -29,7 +29,7 @@ runtime-configurable clock division.
 
 ## Architecture
 
-![SPI top-level architecture](docs/architecture_diagram.svg)
+![SPI top-level architecture](diag/architecture_diagram.svg)
 
 - **`spi_reg_map.v`** — decodes the 4 registers, generates single-cycle
   `tx_wr_en` / `rx_rd_en` FIFO strobes, and holds `spi_en` / `cpol` / `cpha`.
@@ -44,7 +44,7 @@ runtime-configurable clock division.
 
 ### FSM
 
-![SPI master FSM](docs/fsm_diagram.svg)
+![SPI master FSM](diag/fsm_diagram.svg)
 
 `IDLE` waits for `spi_en` with a non-empty TX FIFO, then loads the shift
 register and moves to `SHIFT`. `SHIFT` toggles `sclk` every
