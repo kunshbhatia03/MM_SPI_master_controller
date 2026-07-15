@@ -9,7 +9,7 @@ module tb_spi_top;
 
     // Inputs to the DUT
     reg        clk;
-    reg        rst_n;
+    reg        rst_n,
     reg  [1:0] bus_addr;
     reg  [7:0] bus_wdata;
     reg        bus_wr_en;
