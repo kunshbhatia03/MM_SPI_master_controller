@@ -7,7 +7,7 @@ module spi_master #(
     input  wire       rst_n,
     
     // Control from Register Map
-    input  wire       spi_en,
+    input  wire       spi_en;
     input  wire       cpol,
     input  wire       cpha,
     output reg        spi_busy,
