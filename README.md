@@ -131,3 +131,9 @@ FIFO, checking each against the value transmitted.
   parameter.
 - No interrupt output — status must be polled via `SR`.
 
+  ## Author
+
+**Kunsh Bhatia**  
+B.Tech Electronics and Communication Engineering, NSUT Delhi (2024–2028)  
+📧 bhatiakunsh03@gmail.com
+
